@@ -1,0 +1,67 @@
+header{
+    background-color: transparent;
+    width: 1920px;  height: 80px;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    padding: 24px 60px;
+}
+header nav{position: relative;}
+header nav .gnb{display: flex;}
+header nav .gnb > li{
+    margin-right: 55px;
+    position: relative;
+}
+header nav .gnb > li:last-child{margin: 0;}
+header nav .gnb > li > a{
+    color: #fff;
+    font-size: 1.0rem;
+    letter-spacing: -2%;
+} 
+main{}
+main .visual{
+    height: 90vh;
+    background-image: url(../img/main.png);
+}
+main p{
+    font-family: "Noto Serif", serif;
+    font-size: 6.25rem;
+    color: #57160B;
+    z-index: 200;
+    padding-left: 60px; padding-top: 350px;
+}
+main span{
+    padding-left: 300px; padding-top: 35px;
+}
+main .profile{
+    display: flex;
+}
+main .profile .pro_img{
+    width: 500px; height: 500px;
+    background-color: red;
+    border-radius: 100%;
+}
+main .profile .pro_tit{
+
+}
+main .profile .pro_tit h1{
+    font-weight: 300;
+    letter-spacing: -2%;
+    font-size: 40px;
+    width: 471px;
+    padding-bottom: 20px;
+}
+main .profile .pro_tit ul{
+    display: flex;
+    flex-flow: row wrap;/*  */
+    width: 450px;
+}
+main .profile .pro_tit ul .title{
+    width: 70px;
+    background-color: red;
+    padding-bottom: 20px;
+}
+main .profile .pro_tit ul .content{
+    width: 155px;
+    background-color: blue;
+}
