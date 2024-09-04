@@ -16,7 +16,7 @@ header nav .gnb > li:last-child{margin: 0;}
 header nav .gnb > li > a{
     color: #fff;
     font-size: 1.0rem;
-    letter-spacing: -2%;
+    letter-spacing: 2px;
 } 
 main{}
 main .visual{
@@ -42,18 +42,17 @@ main .profile .pro_img{
     border-radius: 100%;
 }
 main .profile .pro_tit{
-
 }
 main .profile .pro_tit h1{
     font-weight: 300;
-    letter-spacing: -2%;
+    letter-spacing: 2px;
     font-size: 40px;
     width: 471px;
     padding-bottom: 20px;
 }
 main .profile .pro_tit ul{
     display: flex;
-    flex-flow: row wrap;/*  */
+    flex-flow: row wrap;
     width: 450px;
 }
 main .profile .pro_tit ul .title{
