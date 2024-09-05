@@ -34,33 +34,113 @@ main span{
     padding-left: 300px; padding-top: 35px;
 }
 main .profile{
+    width: 100%;
     display: flex;
+    flex-flow: row wrap; 
 }
-main .profile .pro_img{
-    width: 500px; height: 500px;
-    background-color: red;
-    border-radius: 100%;
-}
-main .profile .pro_tit{
-}
-main .profile .pro_tit h1{
+main .profile h1{
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 0.02em;
     font-size: 40px;
     width: 471px;
-    padding-bottom: 20px;
+    font-family: "Noto Serif", serif;
+    padding: 50px 0 20px 80px;
 }
-main .profile .pro_tit ul{
+main .profile .pro{
+    width: 100%;
+    padding-top: 0;
+}
+main .profile .pro_cont{
+    width: 1400px; height: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 100px;
+}
+main .profile .pro_img{
+    width: 50%;
+    padding-top: 70px;
+    background-color: red;
+}
+main .profile .pro_img img{
+    width: 500px; height: 500px;
+    border-radius: 100%;
+}
+
+main .profile .pro_txt{
+    width: 50%;
+}
+main .profile .pro_txt .txt h2{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+main .profile .pro_txt .txt .about{
+    padding: 0;
+}
+main .profile .pro_txt .txt ul{}
+main .profile .pro_txt .txt ul li{
+    letter-spacing: 0.02em;
+    font-size: 1.0rem;
+}
+main .profile .pro_txt .txt01{
     display: flex;
     flex-flow: row wrap;
-    width: 450px;
+    width: 460px;
+    border-left: 1px solid #000;
+    padding-left: 20px;
 }
-main .profile .pro_tit ul .title{
-    width: 70px;
-    background-color: red;
+main .profile .pro_txt li:nth-child(-n+4){
     padding-bottom: 20px;
 }
-main .profile .pro_tit ul .content{
-    width: 155px;
-    background-color: blue;
+main .profile .pro_txt .txt01 .title{
+    width: 70px;
+}
+main .profile .pro_txt .txt01 .content{
+    width: 160px;   
+}
+main .profile .pro_txt .txt02{
+    display: flex;
+    flex-flow: row wrap;
+    width: 675px;
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+main .profile .pro_txt .txt01 li:nth-child(2){
+    padding: 20px 0;
+}
+main .profile .pro_txt .txt02 .term{
+    width: 175px;
+}
+main .profile .pro_txt .txt02 .school{
+    width: 500px;
+    background-color: lime;
+}
+main .profile .pro_txt .txt03{
+    display: flex;
+    flex-flow: row wrap;
+    width: 635px;
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+main .profile .pro_txt .txt03 .time{
+    width: 175px;
+}
+main .profile .pro_txt .txt03 .company{
+    width: 460px;
+}
+main .profile .pro_txt .txt04{
+    display: flex;
+    flex-wrap: row wrap;
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+main .profile .pro_txt .txt04 li{
+    margin-right: 20px;
+    width: 65px; height: 65px;
+}
+main .profile .pro_txt .txt04 li img{
+    width: ;
 }
